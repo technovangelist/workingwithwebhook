@@ -1,0 +1,24 @@
+[
+    {
+      "id": "createobsidianfile",
+      "execute-command": "Path to Script",
+      "pass-arguments-to-command": [
+        {
+          "source": "payload",
+          "name": "filename"
+        },
+        {
+          "source": "payload",
+          "name": "think"
+        },
+        {
+          "source": "payload",
+          "name": "research"
+        },
+        {
+          "source": "payload",
+          "name": "citations"
+        }
+      ]
+    }
+  ]
